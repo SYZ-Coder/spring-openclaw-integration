@@ -1,0 +1,17 @@
+# 配置 Spring Boot 内置 Web 服务。
+server:
+  # 指定当前示例服务的启动端口。
+  port: 8080
+
+# 配置访问 OpenClaw 所需的参数。
+openclaw:
+  # 指定 OpenClaw Gateway 的基础地址。
+  base-url:
+  # 指定访问 OpenClaw `/v1/*` 接口时使用的 Gateway Token。
+  token:
+  # 指定接收 OpenClaw 主动 webhook 回调时用于校验的 Token。
+  callback-token: MY_CRON_WEBHOOK_TOKEN
+  # 指定 OpenClaw Webhooks 插件暴露的 route 路径。
+  taskflow-webhook-path: /plugins/webhooks/zapier
+  # 指定调用 Webhooks 插件 route 时使用的共享密钥。
+  taskflow-webhook-secret: YOUR_WEBHOOK_PLUGIN_SECRET

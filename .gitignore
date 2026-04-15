@@ -1,0 +1,10 @@
+# 忽略 Maven 打包输出目录。
+target/
+# 忽略 IntelliJ IDEA 工程目录。
+.idea/
+# 忽略 IntelliJ 模块文件。
+*.iml
+# 忽略本地 Maven 辅助目录。
+.mvn/
+# 忽略其他 IDE 的编译输出目录。
+out/
