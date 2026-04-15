@@ -1,5 +1,13 @@
 # openclaw_spring
 
+## Open Source Project Notes
+
+- License: MIT
+- Status: experimental sample project for learning and integration reference
+- Contributions: see `CONTRIBUTING.md`
+- Security reporting: see `SECURITY.md`
+- Community expectations: see `CODE_OF_CONDUCT.md`
+
 这是一个独立的 Spring Boot 示例项目，用来演示如何集成 OpenClaw。
 
 ## 项目包含内容
